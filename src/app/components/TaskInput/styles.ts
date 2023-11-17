@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import themes from "@/theme";
 
-export const Container = styled.div`
+export const Container = styled.form`
   display: flex;
   align-items: center;
-  background-color: ${({ theme }) => theme.primary};
+  background-color: ${themes.dark.background};
   border-radius: 10px;
 `;
 
