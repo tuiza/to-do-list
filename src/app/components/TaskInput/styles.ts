@@ -15,8 +15,11 @@ export const Input = styled.input`
   border: none;
   margin: 10px;
   padding: 10px;
-  font-size: 16px;
   background-color: transparent;
+  color: ${themes.dark.border};
+  font-size: max(24px, 1vw);
+
+
 
   &:focus {
     outline: none;

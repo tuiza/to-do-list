@@ -29,7 +29,7 @@ export default function Task({
             </S.TaskName>
             <S.BtnContainer>
                 <S.BtnDelete>
-                    <MdEdit size={28} />
+                    <MdEdit size={28} color='#f5f5f5' />
                 </S.BtnDelete>
                 <S.BtnDelete onClick={() => onHandleDelete(task.id)}>
                     <MdDeleteOutline size={28} color='red'/>

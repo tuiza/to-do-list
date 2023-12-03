@@ -14,8 +14,8 @@ export default function Tasks() {
                 <S.Titulo>Lista de Tarefas</S.Titulo>
                 <S.BtnTheme onClick={handleTheme}>
                     {isDark ?
-                        <MdLightMode size='30' /> :
-                        <MdNightlightRound size='30' />
+                        <MdLightMode size='30' color='#f5f5f5'/> :
+                        <MdNightlightRound size='30' color='#f5f5f5' />
                     }
                 </S.BtnTheme>
             </S.HeaderContent>

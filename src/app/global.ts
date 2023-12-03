@@ -1,11 +1,11 @@
 import { createGlobalStyle } from "styled-components";
-import px2vw from "./utils/pixelToViewWidth";
 
 export const GlobalStyle = createGlobalStyle`
 
 html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
+  background-color: #000;
 }
 body {
   margin: 0;
@@ -147,29 +147,6 @@ template {
   display: none;
 }
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    :root {
-        font-size: max(18px, 1vw);
-        background-color: #000;
-
-    
-
-    /*     @media (min-width: 1024px) {
-            font-size: ${px2vw(16)};
-        }
-
-        @media (min-width: 768px) and (max-width: 1023px) {
-            font-size: ${px2vw(24)};
-        }
-
-        @media (max-width: 768px) {
-            font-size: ${px2vw(32)};
-        } */
-    }
 `;
 
 export default GlobalStyle;
