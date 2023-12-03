@@ -6,10 +6,10 @@ export const Container = styled.li`
   margin-top: 10px;
   align-items: center;
   background-color: transparent;
-  width: 100%;
-  
+  width: auto;
   height: 70px;
-  padding: 0 12px;
+  padding: 10px;
+  
   border-bottom: 1px solid ${themes.dark.border};
 `;
 
