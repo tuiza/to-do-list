@@ -32,7 +32,7 @@ export default function TaskInput({ addTask }: Readonly<TaskInputProps>) {
                 onChange={(e) => setTaskName(e.target.value) }
             />
             <S.BtnAdd onClick={onHandleAdd} type='submit'>
-                <MdAddTask size='30' />
+                <MdAddTask size='30' color='white'/>
             </S.BtnAdd>
         </S.Container>
     )
