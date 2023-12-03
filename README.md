@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="Estudos" />
 
-## Getting Started
+  &#xa0;
 
-First, run the development server:
+  <a href="to-do-list-weld-one-58.vercel.app">Demo</a>
+</div>
+
+<h1 align="center">Lista de Tarefas</h1>
+
+<p align="center">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/luizamarlene/estudos?color=56BEB8">
+
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/luizamarlene/estudos?color=56BEB8">
+
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/luizamarlene/estudos?color=56BEB8">
+
+  <img alt="Licença" src="https://img.shields.io/github/license/luizamarlene/estudos?color=56BEB8">
+
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/luizamarlene/estudos?color=56BEB8" /> -->
+
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/luizamarlene/estudos?color=56BEB8" /> -->
+
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/luizamarlene/estudos?color=56BEB8" /> -->
+</p>
+
+<!-- Status -->
+
+<!-- <h4 align="center"> 
+	🚧  Estudos 🚀 Em construção...  🚧
+</h4> 
+
+<hr> -->
+
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-pré-requisitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/luizamarlene" target="_blank">Autor</a>
+</p>
+
+<br>
+
+## :dart: Sobre ##
+
+Esse é um desafio do Frontend Mentor, no qual era necessário construir um lista de tarefas.
+
+- [Desafio do Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW)
+
+
+## :sparkles: Funcionalidades ##
+
+:heavy_check_mark: Criar Tarefas;\
+:heavy_check_mark: Marcar tarefas como concluídas;\
+:heavy_check_mark: Editar e Excluir tarefas;
+
+## :rocket: Tecnologias ##
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## :white_check_mark: Pré requisitos ##
+
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+## :checkered_flag: Começando ##
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone este repositório
+$ git clone https://github.com/luizamarlene/estudos
+
+# Entre na pasta
+$ cd estudos
+
+# Instale as dependências
+$ yarn
+
+# Para iniciar o projeto
+$ yarn start
+
+# O app vai inicializar em <http://localhost:3000>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :memo: Licença ##
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Feito com :heart: por <a href="https://github.com/luizamarlene" target="_blank">Luiza Marlene</a>
 
-To learn more about Next.js, take a look at the following resources:
+&#xa0;
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="#top">Voltar para o topo</a>
