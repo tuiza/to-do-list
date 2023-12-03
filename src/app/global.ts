@@ -10,6 +10,9 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+    overflow-x: hidden;
+    padding: 20px;
+
 }
 main {
   display: block;
@@ -145,6 +148,11 @@ template {
 }
 [hidden] {
   display: none;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 `;
